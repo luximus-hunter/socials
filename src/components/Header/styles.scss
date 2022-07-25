@@ -1,0 +1,41 @@
+.header {
+  display: grid;
+  grid-template-columns: calc(100% / 3) auto;
+
+  .avatar {
+    width: calc(100% - 20px);
+    border: 1px solid black;
+    border-radius: 13px;
+    margin: 10px;
+    box-shadow: 0 0 10px #00000067;
+    background: #fff;
+  }
+
+  .info {
+    text-align: center;
+    padding: 20px;
+
+    h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    h2 {
+      font-weight: normal;
+    }
+  }
+
+  .contents {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .header {
+    display: block;
+
+    .avatar {
+      display: none;
+    }
+  }
+}
