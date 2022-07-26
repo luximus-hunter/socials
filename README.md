@@ -1,2 +1,5 @@
-# socials
- links v2
+# Socials
+
+_links v2_
+
+https://socials.lxms.nl

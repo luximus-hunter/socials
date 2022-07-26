@@ -9,7 +9,7 @@ function App(): JSX.Element {
       <Center>
         <Header />
         <SocialCards />
-        <Footer/>
+        <Footer />
       </Center>
     </div>
   );

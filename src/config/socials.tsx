@@ -82,7 +82,7 @@ const Socials: ISocial[] = [
     text: 'luximus-hunter',
     pfp: 'catboy.png',
     icon: <Github color='#000000' />
-  },
+  }
 ];
 
 export default Socials;
