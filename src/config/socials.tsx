@@ -22,14 +22,14 @@ const Socials: ISocial[] = [
   {
     name: 'Discord',
     text: 'Luximus#2043',
-    pfp: 'plague-doctor.png',
+    pfp: 'orange.png',
     icon: <Discord color='#5865F2' />
   },
   {
     name: 'Spotify',
     url: 'https://open.spotify.com/user/yxmq93tlmfomm2ir62cs0bq0u?si=6b5fbb8557c84fba',
-    text: 'Lux',
-    pfp: 'nostalgia.png',
+    text: 'Luximus',
+    pfp: 'orange.png',
     icon: <Spotify color='#1DB954' />
   },
   {
