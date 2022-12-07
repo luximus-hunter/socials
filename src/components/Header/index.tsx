@@ -4,7 +4,7 @@ import header from '../../config/header';
 
 const Header = (): JSX.Element => (
     <div className='header'>
-        <img className='avatar' src={`/avatars/${header.avatar}`} alt="header avatar" />
+        <img className='avatar' src={`/avatars/${header.avatar}`} alt='header avatar' />
         <TextCard className='info'>
             <h1 className='title'>{header.title}</h1>
             <h2 className='subtitle'>{header.subtitle}</h2>
