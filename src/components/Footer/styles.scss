@@ -1,11 +1,11 @@
 .footer {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }
 
 @media only screen and (max-width: 530px) {
-  .footer {
-    display: block;
-  }
+    .footer {
+        display: block;
+    }
 }

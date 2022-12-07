@@ -1,13 +1,13 @@
 .center {
-  max-width: 90%;
-  width: 900px;
-  margin: 0 auto;
+    max-width: 90%;
+    width: 900px;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 530px) {
-  .center {
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-  }
+    .center {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
 }

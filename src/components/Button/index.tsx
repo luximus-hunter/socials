@@ -1,16 +1,15 @@
 import './styles.scss';
+import React from 'react';
 
-export interface ButtonProps {
-  link: string;
-  children?: React.ReactNode;
+interface ButtonProps {
+    link: string;
+    children?: React.ReactNode;
 }
 
-function Button({ link, children }: ButtonProps): JSX.Element {
-  return (
+const Button = ({ link, children }: ButtonProps): JSX.Element => (
     <a href={link}>
-      <button className='button'>{children}</button>
+        <button className='button'>{children}</button>
     </a>
-  );
-}
+);
 
 export default Button;

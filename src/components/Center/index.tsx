@@ -1,11 +1,10 @@
 import './styles.scss';
+import React from 'react';
 
-export interface CenterProps {
-  children?: React.ReactNode;
+interface CenterProps {
+    children?: React.ReactNode;
 }
 
-function Center({ children }: CenterProps): JSX.Element {
-  return <div className='center'>{children}</div>;
-}
+const Center = ({ children }: CenterProps): JSX.Element => <div className='center'>{children}</div>;
 
 export default Center;

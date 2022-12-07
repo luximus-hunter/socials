@@ -3,16 +3,14 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import SocialCards from './components/SocialCards';
 
-function App(): JSX.Element {
-  return (
+const App = (): JSX.Element => (
     <div className='App'>
-      <Center>
-        <Header />
-        <SocialCards />
-        <Footer />
-      </Center>
+        <Center>
+            <Header />
+            <SocialCards />
+            <Footer />
+        </Center>
     </div>
-  );
-}
+);
 
 export default App;

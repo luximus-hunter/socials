@@ -1,12 +1,12 @@
 import './styles.scss';
 
-export interface SocialCardProps {
-  children?: React.ReactNode;
-  className?: string;
+interface SocialCardProps {
+    children?: React.ReactNode;
+    className?: string;
 }
 
-function SocialCard({ children, className }: SocialCardProps): JSX.Element {
-  return <div className={`textCard ${className}`}>{children}</div>;
-}
+const SocialCard = ({ children, className }: SocialCardProps): JSX.Element => (
+    <div className={`textCard ${className}`}>{children}</div>
+);
 
 export default SocialCard;
